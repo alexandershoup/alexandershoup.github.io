@@ -1,0 +1,15 @@
+body {
+    font-family: monospace;
+    white-space: nowrap;
+    color: lime;
+    background-color: black;
+}
+
+body::after {
+    content: "";
+	display: inline-block;
+	background: lime;
+	width: 8px;
+	height: 13px;
+	z-index:0;
+}
