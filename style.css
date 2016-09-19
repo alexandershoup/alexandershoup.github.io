@@ -9,6 +9,7 @@ body::after {
     content: "";
 	display: inline-block;
 	/*background: lime;*/
+    background: black;
 	width: 8px;
 	height: 13px;
 	z-index:0;
